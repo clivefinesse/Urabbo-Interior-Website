@@ -98,7 +98,7 @@ const AboutUs=(props)=>{
                     <div className="col-2"><MdOutlineCall className="h1 text-warning rounded-circle bg-white " /></div>
                     <div className="col-10">
                       <p className="text-white h5">Call Us</p>
-                      <p className="text-warning h5">+919694318893</p>
+                      <p className="text-warning h5">+25414073163</p>
                     </div>
                   </div>
  
@@ -124,7 +124,7 @@ const AboutUs=(props)=>{
  
             </div>
           </div>
-          <div className="text-white text-center h3" style={{fontFamily:"'Aref Ruqaa', serif"}}>Mumbai | Pune | Dubai</div>
+          <div className="text-white text-center h3" style={{fontFamily:"'Aref Ruqaa', serif"}}>Nairobi | Westlands | Kenya</div>
           <div style={{backgroundColor:theme}}><p className="text-center text-warning p-3 h6"></p></div>
         </div>
  
@@ -135,10 +135,10 @@ const AboutUs=(props)=>{
          <div style={{backgroundColor:theme,opacity:"0.95",height:"auto"}}>
            <div className="row mt-5 p-3">
              <div className="col-12 col-md-6 mx-auto text-center">
-              
-               <h1 className="text-white text-center mt-5" style={{fontFamily:"'Aref Ruqaa', serif"}}>Nitesh Rajpoot</h1>
+
+               <h1 className="text-white text-center mt-5" style={{fontFamily:"'Aref Ruqaa', serif"}}>Geoffrey Mwangi</h1>
                <p className="text-white">DGM Projects 20years Of Experience In Project Development & Management</p>
-               <p className="text-white">Consectetur a eius ipsa laudantium cumque Ipsa optio eligendi nulla labore quisquam. Illo culpa atque deserunt ducimus rerum Repellendus debitis eius eius dolores minima? Repudiandae quo culpa reprehenderit sequi molestias molestias vel Omnis obcaecati consectetur exercitationem illum debitis rem Veritatis quibusdam atque asperiores consequatur distinctio, pariatur! In et architecto optio</p>
+               <p className="text-white">At Havencraft Construction Limited, we blend creativity and craftsmanship to design spaces that reflect your style and purpose. Every project is guided by quality, precision, and a passion for turning ideas into inspiring interiors that feel uniquely yours.</p>
              </div>
              <div className="col-10 col-md-4 mx-auto">
                <img src="/images/d1.jpg" className="rounded mt-5 border border-3 border-warning" width="100%"></img>
@@ -148,9 +148,10 @@ const AboutUs=(props)=>{
                <img src="/images/d1.jpg" className="rounded mt-5 border border-3 border-warning" width="100%"></img>
              </div>
              <div className="col-12 col-md-6 mx-auto text-center">
-               <h1 className="text-white text-center mt-5" style={{fontFamily:"'Aref Ruqaa', serif"}}>Sadiq Khan</h1>
+               <h1 className="text-white text-center mt-5" style={{fontFamily:"'Aref Ruqaa', serif"}}>George Wangiri</h1>
                <p className="text-white">Principal Designer Of Architect & Interior</p>
-               <p className="text-white">Consectetur a eius ipsa laudantium cumque Ipsa optio eligendi nulla labore quisquam. Illo culpa atque deserunt ducimus rerum Repellendus debitis eius eius dolores minima? Repudiandae quo culpa reprehenderit sequi molestias molestias vel Omnis obcaecati consectetur exercitationem illum debitis rem Veritatis quibusdam atque asperiores consequatur distinctio, pariatur! In et architecto optio</p>
+               <p className="text-white">At Havencraft Construction Limited, we blend creativity and craftsmanship to design spaces that reflect your style and purpose. Every project is guided by quality, precision, and a passion for turning ideas into inspiring interiors that feel uniquely yours.
+               </p>
              </div>
 
            </div>

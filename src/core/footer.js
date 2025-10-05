@@ -1,185 +1,95 @@
-import React from "react"
-import {MdTravelExplore,MdLocationOn,MdOutlineCall,MdMarkEmailRead} from "react-icons/md"
+import React from "react";
+import { MdOutlineCall, MdMarkEmailRead, MdLocationOn } from "react-icons/md";
 
+const Footer = () => {
+  const theme = "#191919";
+  const customers = [
+    { name: "Safaricom PLC", logo: "/logos/safaricom.png" },
+    { name: "Equity Bank", logo: "/logos/equity.png" },
+    { name: "Kenya Airways", logo: "/logos/kenyaairways.png" },
+    { name: "Nation Media Group", logo: "/logos/nationmedia.png" },
+    { name: "Java House Africa", logo: "/logos/java.png" },
+  ];
 
+  // Show placeholder if image fails to load
+  const handleImgError = (e) => {
+    e.target.onerror = null;
+    e.target.src =
+      "data:image/svg+xml;utf8,<svg width='100' height='60' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='60' fill='white' stroke='orange' stroke-width='2'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' fill='orange' font-size='12'>No Logo</text></svg>";
+  };
 
-const Footer=()=>{
-    const theme='#191919'
-
-    const laptopFooter=()=>(
-        <div  style={{backgroundImage:"url('/images/bg-6.jpg')"}}>
-        <div >
-          <div className="row p-2 col-md-8 mx-auto ">
-      {/*<div className="p-2  col-12 col-md-6">
-           <div className="  rounded shadow-lg " style={{backgroundColor:theme,opacity:"0.9"}}>
-              <div className="col-8 mx-auto" ><img src="/logo-2.png" width="100%" height="100px"></img></div>
-              <div className="col-10 mx-auto text-center text-white p-1 h5" style={{fontFamily:"serif"}}><p className="p-2 h5">WHY WE ARE THE BEST! </p>
-              Urabbo provides credibility, strength, and benefits to ensure our client succeeds. We bring together the buyers and the sellers and manage and solve many challenging and complex transactions to gladden everyone involved, especially our clients. Our knowledge and expertise will help you achieve your real estate goals expeditiously.</div>
+  return (
+    <div style={{ backgroundColor: theme, color: "#fff", padding: "40px 0" }}>
+      <div className="container">
+        <img
+          src="/logo-2.png"
+          alt="Logo"
+          style={{
+            width: "120px",
+            marginBottom: "20px",
+            display: "block",
+            marginLeft: "auto",
+            marginRight: "auto",
+          }}
+        />
+        <h2 className="text-warning text-center mb-3">Our Valued Customers</h2>
+        {/* Evenly spaced logos */}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: "40px",
+            flexWrap: "wrap",
+            marginBottom: "24px",
+          }}
+        >
+          {customers.map((customer, idx) => (
+            <div key={idx} style={{ textAlign: "center", width: "120px" }}>
+              <img
+                src={customer.logo}
+                alt={customer.name}
+                style={{
+                  width: "100px",
+                  height: "60px",
+                  objectFit: "contain",
+                  background: "#fff",
+                  borderRadius: "8px",
+                  padding: "5px",
+                  margin: "0 auto",
+                  display: "block",
+                  border: "1px solid #ffc107",
+                }}
+                onError={handleImgError}
+              />
+              <div className="text-warning small mt-2">{customer.name}</div>
             </div>
-           </div>*/}
-
-
-
-            
-            <div className="p-2 col-12 col-md-6">
-            <div className="rounded" style={{backgroundColor:theme,opacity:"0.9",fontFamily:"'Aref Ruqaa', serif",height:"100%"}}>
-              <p className="h3 text-center text-warning p-2" style={{fontFamily:"'Aref Ruqaa', serif"}}>Office Address</p>
-              <div className="p-3">
-                <div className="row mb-3">
-                  <div className="col-2"><MdLocationOn className="h1 text-warning rounded-circle bg-white " /></div>
-                  <div className="col-10">
-                    <p className="text-white h5">Nairobi Address</p>
-                    <p className="text-warning h5">Sarit Centre, 1st Floor, Westlands, Nairobi</p>
-                  </div>
-                </div>
-
-                <div className="row mb-3">
-                  <div className="col-2"><MdMarkEmailRead className="h1 text-warning rounded-circle bg-white " /></div>
-                  <div className="col-10">
-                  <p className="text-white h5">Westlands Address</p>
-                    <p className="text-warning h5">Westlands,Building Zuri Plaza</p>
-                  </div>
-                </div>
-              
-              </div>
-            </div>
-            </div>
-
-
-            <div className="p-2 col-12 col-md-6">
-            <div className="rounded" style={{backgroundColor:theme,opacity:"0.9",fontFamily:"'Aref Ruqaa', serif",height:"100%"}}>
-              <p className="h3 text-center text-warning p-2" style={{fontFamily:"'Aref Ruqaa', serif"}}>Contact Us</p>
-              <div className="p-3">
-                <div className="row mb-3">
-                  <div className="col-2"><MdOutlineCall className="h1 text-warning rounded-circle bg-white " /></div>
-                  <div className="col-10">
-                    <p className="text-white h5">Call Us</p>
-                    <p className="text-warning h5">+25415284285</p>
-                  </div>
-                </div>
-
-                {/* <div className="row mb-3">
-                  <div className="col-2"><MdMarkEmailRead className="h1 text-warning rounded-circle bg-white " /></div>
-                  <div className="col-10">
-                  <p className="text-white h5">Email Us</p>
-                    <p className="text-warning h5">info@urabbo.com</p>
-                  </div>
-                </div> */}
-
-                <div className="row mb-3">
-                  <div className="col-2"><MdMarkEmailRead className="h1 text-warning rounded-circle bg-white " /></div>
-                  <div className="col-10">
-                    <p className="text-white h5">Sales and Marketting</p>
-                    <p className="text-warning h5">sales@havencraft.com</p>
-                  </div>
-                </div>
-
-                <div className="row mb-3">
-                  <div className="col-2"><MdMarkEmailRead className="h1 text-warning rounded-circle bg-white " /></div>
-                  <div className="col-10">
-                    <p className="text-white h5">Career</p>
-                    <p className="text-warning h5">career@havencraft.com</p>
-                  </div>
-                </div>
-                <br/>
-
-              </div>
-            </div>
-            </div>
-
+          ))}
+        </div>
+        <hr style={{ borderColor: "#444" }} />
+        <div className="row justify-content-center mb-3">
+          <div className="col-12 col-md-4 mb-2">
+            <MdLocationOn className="h4 text-warning" />{" "}
+            <span className="h6">WESTLANDS, BUILDING: ZURI PLAZA</span>
+          </div>
+          <div className="col-12 col-md-4 mb-2">
+            <MdOutlineCall className="h4 text-warning" />{" "}
+            <span className="h6">+254714073163</span>
+          </div>
+          <div className="col-12 col-md-4 mb-2">
+            <MdMarkEmailRead className="h4 text-warning" />{" "}
+            <span className="h6">sales@havencraft.com</span>
           </div>
         </div>
-        <div className="text-white text-center h3" style={{fontFamily:"'Aref Ruqaa', serif"}}>Mumbai&nbsp;&nbsp;|&nbsp;&nbsp;Pune&nbsp;&nbsp;</div>
-        <div style={{backgroundColor:theme}}><p className="text-center text-warning p-3 h6">Copyright © 2022 Think Luxury Think Urabbo</p></div>
+        <p className="mt-3 text-center">
+          &copy; 2025 Havencraft Construction Limited. All rights reserved.
+        </p>
       </div>
+      {/*whatsapp*/}
+      <div className="elfsight-app-6c2b3ebe-7fe5-46aa-a5f4-c954c639aa41"></div>
+    </div>
+  );
+};
 
-    )
-    const mobileFooter=()=>(
-      <>
-        <div  style={{backgroundImage:"url('/images/bg-6.jpg')"}}>
-            <div className="p-2 col-12 col-md-6">
-            <div className="rounded" style={{backgroundColor:theme,opacity:"0.9",fontFamily:"'Aref Ruqaa', serif"}}>
-              <p className="h3 text-center text-warning p-2" style={{fontFamily:"'Aref Ruqaa', serif"}}>Office Address</p>
-              <div className="p-3">
-                <div className="row mb-3">
-                  <div className="col-2"><MdLocationOn className="h1 text-warning rounded-circle bg-white " /></div>
-                  <div className="col-10">
-                    <p className="text-white h5">Westlands Address</p>
-                    <p className="text-warning h5">Westlands,Building Zuri Plaza</p>
-                  </div>
-                </div>
+export default Footer;
 
-                <div className="row mb-3">
-                  <div className="col-2"><MdMarkEmailRead className="h1 text-warning rounded-circle bg-white " /></div>
-                  <div className="col-10">
-                  <p className="text-white h5">Westlands Address</p>
-                    <p className="text-warning h5">Nairobi,kenya,Westlands,Zuri Plaza</p>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-            </div>
-
-
-           <div className="p-2 col-12 col-md-6 text-center">
-            <div className="rounded" style={{backgroundColor:theme,opacity:"0.9",fontFamily:"'Aref Ruqaa', serif"}}>
-              <p className="h3 text-center text-warning p-2" style={{fontFamily:"'Aref Ruqaa', serif"}}>Contact Us</p>
-              <div className="p-3">
-                <div className="text-center mb-3">
-                  <div className=" text-center"><MdOutlineCall className="h1 text-warning text-center rounded-circle bg-white " /></div>
-                  <div className="p-3">
-                    <p className="text-white h5">Call Us</p>
-                    <p className="text-warning h5">+25414073163</p>
-                  </div>
-                </div>
-
-                {/* <div className=" p-3 mb-3 text-center">
-                  <div className=""><MdMarkEmailRead className="h1 text-warning rounded-circle bg-white " /></div>
-                  <div className="">
-                  <p className="text-white h5">Email Us</p>
-                    <p className="text-warning h5">info@urabbo.com</p>
-                  </div>
-                </div> */}
-
-                <div className="p-3 text-center mb-3">
-                  <div className=""><MdMarkEmailRead className="h1 text-warning rounded-circle bg-white " /></div>
-                  <div className="">
-                    <p className="text-white h5">Sales and Marketting</p>
-                    <p className="text-warning h5">sales@havencraft.com</p>
-                  </div>
-                </div>
-
-                <div className="p-3 text-center mb-3">
-                  <div className=""><MdMarkEmailRead className="h1 text-warning rounded-circle bg-white " /></div>
-                  <div className="">
-                    <p className="text-white h5">Career</p>
-                    <p className="text-warning h5">career@havencraft.com</p>
-                  </div>
-                </div>
-
-
-              </div>
-            </div>
-            </div>
-           
-
-
-            </div>
-            <div className="text-white text-center h3" style={{fontFamily:"'Aref Ruqaa', serif"}}>Nairobi&nbsp;&nbsp;|&nbsp;&nbsp;Westlands&nbsp;&nbsp;|&nbsp;&nbsp;Zuri Plaza</div>
-        <div style={{backgroundColor:theme}}><p className="text-center text-warning p-3 h6"></p></div>
-        </>
-    )
-
-
-    return(
-        <div>
-           <div className="d-none d-md-block">{laptopFooter()}</div>
-           <div className="d-block d-md-none">{mobileFooter()}</div>
-          {/*whatsapp*/}
-          <div class="elfsight-app-6c2b3ebe-7fe5-46aa-a5f4-c954c639aa41"></div>
-        </div>
-    )
-}
-
-export default Footer
