@@ -28,16 +28,16 @@ const Footer=()=>{
                 <div className="row mb-3">
                   <div className="col-2"><MdLocationOn className="h1 text-warning rounded-circle bg-white " /></div>
                   <div className="col-10">
-                    <p className="text-white h5">Mumbai Address</p>
-                    <p className="text-warning h5">Satara Palaza office no 160 sector 19B plam beach road Vashi Navi Mumbai</p>
+                    <p className="text-white h5">Nairobi Address</p>
+                    <p className="text-warning h5">Sarit Centre, 1st Floor, Westlands, Nairobi</p>
                   </div>
                 </div>
 
                 <div className="row mb-3">
                   <div className="col-2"><MdMarkEmailRead className="h1 text-warning rounded-circle bg-white " /></div>
                   <div className="col-10">
-                  <p className="text-white h5">Pune Address</p>
-                    <p className="text-warning h5">Sr No 251/4 ,Basera house , Vrindavan Nagar, near Neeti Tarangan, Sus, Pune, Maharashtra 411021</p>
+                  <p className="text-white h5">Westlands Address</p>
+                    <p className="text-warning h5">Westlands,Building Zuri Plaza</p>
                   </div>
                 </div>
               
@@ -54,7 +54,7 @@ const Footer=()=>{
                   <div className="col-2"><MdOutlineCall className="h1 text-warning rounded-circle bg-white " /></div>
                   <div className="col-10">
                     <p className="text-white h5">Call Us</p>
-                    <p className="text-warning h5">+91 80556 80290</p>
+                    <p className="text-warning h5">+25415284285</p>
                   </div>
                 </div>
 
@@ -70,7 +70,7 @@ const Footer=()=>{
                   <div className="col-2"><MdMarkEmailRead className="h1 text-warning rounded-circle bg-white " /></div>
                   <div className="col-10">
                     <p className="text-white h5">Sales and Marketting</p>
-                    <p className="text-warning h5">sales@urabbo.com</p>
+                    <p className="text-warning h5">sales@havencraft.com</p>
                   </div>
                 </div>
 
@@ -78,7 +78,7 @@ const Footer=()=>{
                   <div className="col-2"><MdMarkEmailRead className="h1 text-warning rounded-circle bg-white " /></div>
                   <div className="col-10">
                     <p className="text-white h5">Career</p>
-                    <p className="text-warning h5">career@urabbo.com</p>
+                    <p className="text-warning h5">career@havencraft.com</p>
                   </div>
                 </div>
                 <br/>
@@ -104,16 +104,16 @@ const Footer=()=>{
                 <div className="row mb-3">
                   <div className="col-2"><MdLocationOn className="h1 text-warning rounded-circle bg-white " /></div>
                   <div className="col-10">
-                    <p className="text-white h5">Mumbai Address</p>
-                    <p className="text-warning h5">Satara Palaza office no 160 sector 19B plam beach road Vashi Navi Mumbai</p>
+                    <p className="text-white h5">Westlands Address</p>
+                    <p className="text-warning h5">Westlands,Building Zuri Plaza</p>
                   </div>
                 </div>
 
                 <div className="row mb-3">
                   <div className="col-2"><MdMarkEmailRead className="h1 text-warning rounded-circle bg-white " /></div>
                   <div className="col-10">
-                  <p className="text-white h5">Pune Address</p>
-                    <p className="text-warning h5">Sr No 251/4 ,Basera house , Vrindavan Nagar, near sus hospital, Sus, Pune, Maharashtra 411021</p>
+                  <p className="text-white h5">Westlands Address</p>
+                    <p className="text-warning h5">Nairobi,kenya,Westlands,Zuri Plaza</p>
                   </div>
                 </div>
 
@@ -130,7 +130,7 @@ const Footer=()=>{
                   <div className=" text-center"><MdOutlineCall className="h1 text-warning text-center rounded-circle bg-white " /></div>
                   <div className="p-3">
                     <p className="text-white h5">Call Us</p>
-                    <p className="text-warning h5">+91 80556 80290</p>
+                    <p className="text-warning h5">+25414073163</p>
                   </div>
                 </div>
 
@@ -146,7 +146,7 @@ const Footer=()=>{
                   <div className=""><MdMarkEmailRead className="h1 text-warning rounded-circle bg-white " /></div>
                   <div className="">
                     <p className="text-white h5">Sales and Marketting</p>
-                    <p className="text-warning h5">sales@urabbo.com</p>
+                    <p className="text-warning h5">sales@havencraft.com</p>
                   </div>
                 </div>
 
@@ -154,7 +154,7 @@ const Footer=()=>{
                   <div className=""><MdMarkEmailRead className="h1 text-warning rounded-circle bg-white " /></div>
                   <div className="">
                     <p className="text-white h5">Career</p>
-                    <p className="text-warning h5">career@urabbo.com</p>
+                    <p className="text-warning h5">career@havencraft.com</p>
                   </div>
                 </div>
 
@@ -166,7 +166,7 @@ const Footer=()=>{
 
 
             </div>
-            <div className="text-white text-center h3" style={{fontFamily:"'Aref Ruqaa', serif"}}>Mumbai&nbsp;&nbsp;|&nbsp;&nbsp;Pune&nbsp;&nbsp;|&nbsp;&nbsp;Dubai</div>
+            <div className="text-white text-center h3" style={{fontFamily:"'Aref Ruqaa', serif"}}>Nairobi&nbsp;&nbsp;|&nbsp;&nbsp;Westlands&nbsp;&nbsp;|&nbsp;&nbsp;Zuri Plaza</div>
         <div style={{backgroundColor:theme}}><p className="text-center text-warning p-3 h6"></p></div>
         </>
     )

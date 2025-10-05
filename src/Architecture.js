@@ -70,16 +70,16 @@ const Architecture=(props)=>{
 
              <div className="col-12 col-md-6 mx-auto text-left">
                <h1 className="text-white text-center mt-5" style={{fontFamily:"'Aref Ruqaa', serif"}}>Architecture at it's Best</h1>
-               <p className="text-white">Employing the highest standard of excellence and quality, Urabbo provides an extensive selection of professional services including: Interior & Architecture Design, Program Development, Master Planning, Dedicated Project, Management, Sub-Contractor, Negotiations / Management, Restaurant & Hotel, Wardrobe / Costume, Design 3D Interior Perspectives, Tableware and Amenity Selection / Design Procurement</p>
+               <p className="text-white">Employing the highest standard of excellence and quality, Havencraft provides an extensive selection of professional services including: Interior & Architecture Design, Program Development, Master Planning, Dedicated Project, Management, Sub-Contractor, Negotiations / Management, Restaurant & Hotel, Wardrobe / Costume, Design 3D Interior Perspectives, Tableware and Amenity Selection / Design Procurement</p>
              </div>
              <div className="col-10 col-md-4 mx-auto">
                <img src="/images/archi3.jpg" className="rounded mt-5 border border-3 border-warning" width="100%"></img>
              </div>
 
              <div className="col-12 col-md-6 mx-auto text-center">
-              
-               <h1 className="text-white text-center mt-5" style={{fontFamily:"'Aref Ruqaa', serif"}}>Urabbo interior Designer</h1>
-               <p className="text-white">Every Urabbo concept evolves from a close collaboration between our team and our clients – a process predicated upon our having a firm understanding of both our client’s objectives and their unparalleled position within the hospitality industry. talented team listens, researches, synthesizes and ultimately implements a creative vision that is aesthetically compelling, budget and deadline compliant, and above all, speaks strategically to a project’s unique place and program.</p>
+
+               <h1 className="text-white text-center mt-5" style={{fontFamily:"'Aref Ruqaa', serif"}}>Havencraft interior Designer</h1>
+               <p className="text-white">Every Havencraft concept evolves from a close collaboration between our team and our clients – a process predicated upon our having a firm understanding of both our client’s objectives and their unparalleled position within the hospitality industry. talented team listens, researches, synthesizes and ultimately implements a creative vision that is aesthetically compelling, budget and deadline compliant, and above all, speaks strategically to a project’s unique place and program.</p>
              </div>
 
            </div>

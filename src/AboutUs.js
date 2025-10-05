@@ -66,9 +66,9 @@ const AboutUs=(props)=>{
 
       const text=()=>(
           <div className="" style={{fontFamily:"serif"}}>
-              <p className="h5 text-white" >URABBO was founded in 2009 by abcd. A versatile designer has been long in this business of creating interiors. With more than 15 years of work experience, she combines a unique sense of style with an excellent knowledge of design to create thoughtful, interior solutions. She has delved into many disciplines of design, her desire to create space that is perfect & detailed.</p>
+              <p className="h5 text-white" >At Havencraft Construction Limited, we transform spaces into inspiring environments that reflect your style and needs. Based in Nairobi, we specialize in delivering high-quality interior design and construction solutions with creativity, craftsmanship, and integrity.</p>
                <br/>
-              <p className="h5 text-white">Recognized to bring a classic sensibility to her designs, she tries to find inspiration for her clients by understanding, clarifying their ambition and vision as well as striving for perfection. Mrs Menka Rajpoot instills her team with confidence to be fearless while designing a space. Her specialties are confident space planning, intricate detailing & bold sense of colors.</p>
+              <p className="h5 text-white">Recognized for his dedication to quality and innovation, Mr. George Muroki Wangiri brings vision and leadership to Havencraft Construction Limited. He believes in truly understanding clients’ ambitions and turning them into timeless spaces that balance function, beauty, and comfort. His guidance inspires the team to approach every project with creativity, precision, and integrity, ensuring that each design reflects both excellence and individuality.</p>
               <br/>
           </div>
       )

@@ -88,8 +88,8 @@ const IndexHome=(props)=>{
            <div className="row mt-5 p-3">
              <div className="col-12 col-md-6 mx-auto text-center">
               
-               <h1 className="text-white text-center mt-5" style={{fontFamily:"'Aref Ruqaa', serif"}}>Urabbo interior Designer</h1>
-               <p className="text-white">Every Urabbo concept evolves from a close collaboration between our team and our clients – a process predicated upon our having a firm understanding of both our client’s objectives and their unparalleled position within the hospitality industry. talented team listens, researches, synthesizes and ultimately implements a creative vision that is aesthetically compelling, budget and deadline compliant, and above all, speaks strategically to a project’s unique place and program.</p>
+               <h1 className="text-white text-center mt-5" style={{fontFamily:"'Aref Ruqaa', serif"}}>HAVENCRAFT CONSTRUCTION LIMITED</h1>
+               <p className="text-white">Every Havencraft concept evolves from a close collaboration between our team and our clients – a process predicated upon our having a firm understanding of both our client’s objectives and their unparalleled position within the hospitality industry. talented team listens, researches, synthesizes and ultimately implements a creative vision that is aesthetically compelling, budget and deadline compliant, and above all, speaks strategically to a project’s unique place and program.</p>
                <Link to="/projects" ><button className="btn btn-lg btn-warning ">View All Projects</button></Link>
              </div>
              <div className="col-10 col-md-4 mx-auto">
@@ -198,7 +198,7 @@ const IndexHome=(props)=>{
                <div className="col-9 mx-auto rounded p-2" >
                <div className="card p-3 shadow-lg" style={{backgroundColor:"#000000",opacity:"1"}}>
                   <p className="text-white ">"Wonderful to work with, very professional team and very accommodating to the client!"</p>
-                  <p className="text-white h6">-Anil Sharma</p>
+                  <p className="text-white h6">-Sharon Mwangi</p>
                  
                 </div>
                 
@@ -208,7 +208,8 @@ const IndexHome=(props)=>{
                <div className="card p-3 shadow-lg" style={{backgroundColor:"#000000",opacity:"1"}}>
 
                   <p className="text-white ">"From the very start moment that we talked with the team, the staff were young , cool and innovative. Although we were unsure of the exact direction to go, they listened to us and guided all the way through it was done. What a wonderful experience.."</p>
-                  <p className="text-white h6">-Rajat Singhania</p>
+                  <p className="text-white h6">-Doreen Njagi
+                  </p>
                  
                 </div>
                 
@@ -217,8 +218,10 @@ const IndexHome=(props)=>{
                <div className="col-9 mx-auto rounded p-2" >
                <div className="card p-3 shadow-lg" style={{backgroundColor:"#000000",opacity:"1"}}>
 
-                  <p className="text-white ">"Urabbo is highly recommend and creative team. They run smoothly and with accuracy. It has been one of the best experiences of my life."</p>
-                  <p className="text-white h6">-Purvi Patil</p>
+                  <p className="text-white ">"Havencraft is highly recommend and creative team. They run smoothly and with accuracy. It has been one of the best experiences of my life."</p>
+                  <p className="text-white h6">-Wincate  Makena
+                  
+                  </p>
                  
                 </div>
                 
@@ -230,10 +233,11 @@ const IndexHome=(props)=>{
               <div className="col-9 mx-auto rounded p-2" >
                <div className="card p-3 shadow-lg" style={{backgroundColor:"#000000",opacity:"1"}}>
 
-                  <p className="text-white ">"When we first bought our project land, we researched several companies including Interior designers that were exclusive. After critically analysing the URABBO team understood our needs and developed a vision that was beyond anything that we would anticipate. The value of their involvement was realised in savings in big bid process and in solving problems. They are very approachable and accessible. I would encourage everyone to allow Urabbo’s team to take the necessary steps and develop amazing and unique reality. Like they did for us. !"</p>
-                  <p className="text-white h6">-Ajit Singh</p>
+                  <p className="text-white ">"When we first bought our project land, we researched several companies including Interior designers that were exclusive. After critically analysing the havencraft team understood our needs and developed a vision that was beyond anything that we would anticipate. The value of their involvement was realised in savings in big bid process and in solving problems. They are very approachable and accessible. I would encourage everyone to allow havencraft'sales team to take the necessary steps and develop amazing and unique reality. Like they did for us. !"</p>
+                  <p className="text-white h6">-Chris muchira</p>
                  
                 </div>
+
                 
                </div>
 
@@ -241,7 +245,7 @@ const IndexHome=(props)=>{
                <div className="card p-3 shadow-lg" style={{backgroundColor:"#000000",opacity:"1"}}>
 
                   <p className="text-white ">" They have good design also have detailed package for 3D rendering. They are really helpful. A team of professionals.."</p>
-                  <p className="text-white h6">-Ketam Pate</p>
+                  <p className="text-white h6">-George Wangiri</p>
                  
                 </div>
                 

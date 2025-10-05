@@ -182,7 +182,7 @@ Interior design is a process that provides its customers with a set of aesthetic
                   <div className="col-2"><MdOutlineCall className="h1 text-warning rounded-circle bg-white " /></div>
                   <div className="col-10">
                     <p className="text-white h5">Call Us</p>
-                    <p className="text-warning h5">+919694318893</p>
+                    <p className="text-warning h5">+254714073163</p>
                   </div>
                 </div>
 
@@ -208,7 +208,7 @@ Interior design is a process that provides its customers with a set of aesthetic
 
           </div>
         </div>
-        <div className="text-white text-center h3" style={{fontFamily:"'Aref Ruqaa', serif"}}>Mumbai | Pune | Dubai</div>
+        <div className="text-white text-center h3" style={{fontFamily:"'Aref Ruqaa', serif"}}>Nairobi | Westlands | kenya</div>
         <div style={{backgroundColor:theme}}><p className="text-center text-warning p-3 h6"></p></div>
       </div>
 
